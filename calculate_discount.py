@@ -38,5 +38,5 @@ try:
     else:
         print(f"No discount applied. Final price: ${final_price:.2f}")
 except ValueError:
-    # Handle cases where the user input is not a valid number
+    # Handle cases where the user input is not a valid number.
     print("Please enter valid numeric values for price and discount percentage.")
